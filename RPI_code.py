@@ -1,6 +1,6 @@
 import RPi.GPIO as GPIO
 import time
-from mfrc522 import SimpleMFRC522
+from mfrc522 import SimpleMFRC522 #import the RFID library package
 import csv
 import time
 
@@ -19,7 +19,7 @@ I="id"
 N="Name"
 A="Amount"
 T="Time"
-deatails={}
+details={}
 entry={}
 
 for row in reader:
@@ -40,6 +40,7 @@ def ledoff():
 def readcard():
     id,mon=reader.read()
     return(id,mon)
+  
 def writecard(arr):
     reader.write(arr)
     return
