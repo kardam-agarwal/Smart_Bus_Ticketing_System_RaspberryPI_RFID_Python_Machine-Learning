@@ -1,1 +1,7 @@
 # Smart_Bus_Ticketing_System_RFID_Python_Machine-Learning
+
+This project has presented a fully automated, reliable, transparent and convenient system for ticketing . 
+
+This can also be used in vehicle on highways, their toll payment and in the bus ticketing system with small modifications. RFID cards being reusable are much more convenient compared to the paper based ticketing system. Currently, we have a system that includes distribution of tickets by conductor to the passengers manually. But it is now not appropriate for the growing crowd. As there are many problems faced like there’s a lot of confusion between passengers regarding the money changes which eventually results in quarrels. In addition to this, as the crowd keeps on increasing the driver in buses is not able to move throughout the bus. In the daily operation of the public transport system, the movement of buses is uncertain because of conditions such as traffic congestion, unexpected delays, irregular vehicle dispatching times, and other incidents. Such uncertainty results in passengers having to wait for their bus to arrive at the bus stop. Much has been done in the field of transit. Developments have been seen but none of these developments have a clear vision. The proposed system is inclusive of all the requirements, in a single package.
+
+We use a RPI and RFID module MFRC522 to gather the data of the passenger. We also use a Machine learning model to predict the waiting time for patients, the most popuar bus stations.
